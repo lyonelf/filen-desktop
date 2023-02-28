@@ -24,7 +24,7 @@ const fr: {
     syncingItemsFooterSingular: "Synchronisation de __COUNT__ élément",
     syncingItemsFooterPlural: "Synchronisation de __COUNT__ éléments",
     syncingFooterEverythingSynced: "Tout est à jour !",
-    aboutRemaining: "Environ __TIME__ restantes",
+    aboutRemaining: "Environ __TIME__ns restantes",
     noSyncActivityYet: "Aucune activité",
     createOne: "Créer",
     noSyncLocationsSetupYet: "Aucun emplacement de synchronisation n'a encore été configuré",
