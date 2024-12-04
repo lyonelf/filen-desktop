@@ -46,7 +46,7 @@ const fr: {
     change: "Modifier",
     open: "Ouvrir",
     noFilesOrFoldersUploadedYet: "Aucun fichier ou dossier chargé pour l'instant",
-    uploadDone: "Chargement effectuée",
+    uploadDone: "Chargement effectué",
     preparingUpload: "Préparation...",
     preparingUploadFolders: "Création de la structure des dossiers...",
     launchAtSystemStartup: "Lancer au démarrage du système",
@@ -131,13 +131,25 @@ const fr: {
     acquiringSyncLock: "Acquisition du verrou de synchronisation...",
     syncLocationCreated: "Emplacement de synchronisation créé. Pour commencer la synchronisation, veuillez lui désactiver le mode pause.",
     checkingChanges: "Vérification des changements...",
-    syncModeTwoWayInfo: "Reflète chaque action dans les deux directions",
-    syncModeLocalToCloudInfo: "Reflète chaque action locale dans le cloud mais ne prend pas en compte les changements distants",
-    syncModeCloudToLocalInfo: "Reflète chaque action effectuée dans le cloud mais ne prend pas en compte les changements locaux",
+    syncModeTwoWayInfo: "Répercute chaque modification dans les deux directions",
+    syncModeLocalToCloudInfo: "Répercute chaque modification locale dans le cloud mais ne prend pas en compte les changements distants",
+    syncModeCloudToLocalInfo: "Répercute chaque modification effectuée dans le cloud mais ne prend pas en compte les changements locaux",
     syncModeLocalBackupInfo: "Charge seulement les données dans le cloud, ne supprime jamais rien ni ne prend en compte les changements distants",
     syncModeCloudBackupInfo: "Télécharge seulement les données depuis le cloud, ne supprime jamais rien ni ne prend en compte les changements locaux",
     cancel: "Annuler",
     cannotCreateSyncLocationLoop2: "L'emplacement distant sélectionné est déjà un emplacement de synchronisation configuré. Cela pourrait amener à des boucles de synchronisation sans fin"
+	titlebarUpdateAvailable: "Mise à jour disponible",
+    updateWindowInfo: "Une nouvelle version a été téléchargée et est prête à être installée. Veuillez l'installer au plus vite pour profiter de nouvelles fonctionnalitées et corrections de bugs.",
+    updateWindowButton: "Installer",
+    updateWindowInfo2: "Le programme sera fermé et le procédure de mise à jour débutera. Veuillez ne pas l'interrompre.",
+    titlebarUpdateInstalled: "Mise à jour installée",
+    clearLocalEventLog: "Nettoyer le journal d'évènement",
+    clearLocalEventLogInfo: "Cela effacera tout ce qui est visible dans le journal d'évènement. Êtes-vous certains? Cette action est irréversible !",
+    copied: "Copié",
+    publicLinkCopied: "Le lien public est copié dans le presse-papier",
+    clearLocalTrashDirs: "Effacer les corbeilles locales",
+    clearLocalTrashDirsInfo: "Effacer les corbeilles locales est une action irréversible! Êtes-vous certains ?",
+    updateWindowInfo3: "Le programme sera fermé et le procédure de mise à jour débutera en arrière-plan. Il redémarrera de lui-même une fois terminé. Veuillez ne pas interrompre la procédure."
 }
 
 export default fr
